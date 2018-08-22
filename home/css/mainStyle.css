@@ -1,0 +1,41 @@
+.tab {
+    width:600px;
+    height:400px;
+}
+.tab-menu{
+    height:50px;
+    width:700px;
+}
+.tab-menu ul{
+    list-style:none;
+}
+.tab-menu li{
+    display:block;
+    width:100px;
+    float:left;
+    text-align: center;
+}
+.tab-box div{
+    width:600px;
+    height:300px;
+    display:none;
+}
+/* 让第一个框显示出来 */
+.tab-box div:first-Child{
+    display:block;
+}
+/* 改变选项卡选中时候的样式 */
+.change{
+    background:red;
+}
+article{
+    width: 70%;
+    height: 800px;
+    background-color: pink;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+.banner{
+    position: absolute;
+}
